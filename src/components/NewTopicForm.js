@@ -20,7 +20,7 @@ export default function NewTopicForm() {
     }
 
     // dispatch new topic
-    dispatch(addTopic({id: uuidv4(), name: name, icon: icon, quizIds: ['789']}));
+    dispatch(addTopic({id: uuidv4(), name: name, icon: icon, quizIds: []}));
     navigate(ROUTES.topicsRoute());
   };
 

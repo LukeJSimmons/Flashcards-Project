@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import ROUTES from "../app/routes";
 // import selectors
-import { addQuiz, addQuizId } from "../features/quizzes/quizzesSlice";
+import { addQuiz } from "../features/quizzes/quizzesSlice";
+import { addQuizId } from "../features/topics/topicsSlice";
 import { selectTopics } from "../features/topics/topicsSlice";
 import { addCard } from "../features/cards/cardsSlice";
 
